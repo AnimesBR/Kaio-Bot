@@ -1,0 +1,68 @@
+--=[ TileSets for MAP ]=--
+
+[]
+Display=
+Walk=
+event=
+NPC=
+
+
+- Ground
+
+Nome: Agua
+Chr: 48
+Event: .Nadar
+Display: ~ 12,2
+Andar: N
+
+Nome: Grama
+Chr: 34
+Event: Null
+Display: " 3,3
+Andar: S
+
+Nome: Estrada
+Chr: 95
+Event: Null
+Display: - 8,14
+Andar: S
+
+- Cenário
+
+Nome: Tronco da Árvore
+Chr: 124
+Event: Null
+Display: | 7,5
+Andar: N
+
+Nome: Frutos, Folhas da Árvore
+Chr: 43
+Event: .Comer
+Display: + 4,9
+Andar: N
+
+- Construções
+
+Nome: Parede
+Chr: 33
+Event: Null
+Display: ! 15,15
+Andar: N
+
+Nome: Cerca
+Chr: 58
+Event: Null
+Display: : 5,3
+Andar: N
+
+Nome: Muro
+Chr: 35
+Event: Null
+Display: # 14,14
+Andar: N
+
+Nome:
+Chr:
+Event:
+Display:
+Andar: S/N

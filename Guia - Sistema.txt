@@ -1,0 +1,484 @@
+ @ DBZRPG Bot by beeTLe - v1
+
+- Sistema dos Dados:
+
+ * Nome
+  Cadastro vai ser por nome e não por cadastro de nicks.
+
+ * Senha
+  Senha de identificação de conta.
+
+ * Raça
+  O nome ja diz tudo.
+
+ * E-mail
+  Usado em caso de advertências, perda de senha, etc.
+
+ * Idade
+  Mostrará sua idade real e simulada.
+
+ * Sexo
+  Diz se você é Homem ou mulher. 
+
+ * Dinheiro
+  Usado para comprar acessórios, equipamentos, refinadores, etc.
+
+ * Pontos
+  Mede o nivel no ranking.
+
+ * Vitórias
+  Número de vitórias em lutas.
+
+ * Derrotas
+  Número de derrotas em lutas.
+
+ * Empates
+  Número de empates em lutas.
+
+- Informações dos Inventário:
+
+ * Equipamentos
+  Mostra os equipamentos equipados ou não em cada slot. (1 slot Cabeça, 1 slot Corpo, 2 slots Braços (Esquerdo e Direito), 1 slot Pernas, 1 slot Pés).
+
+ * Itens
+  Mostra seus itens (3 Slots Bolsa Inicial)
+
+ * Acessórios
+  Mostra os acessórios que você tem equipado ou não em cada slot. (1 slot Pescorço, 1 slot Ombros (Esquerdo e Direito), 1 slot Pulsos (Esquerdo e Direito), 2 slots Dedos (Esquerdo e Direito))
+
+- Informações dos Atributos:
+
+ * Level
+  Mede seu nivel de luta.
+
+ * BattlePower
+  Indica a potência do lutador.
+
+ * KI
+  É a sua energia usada em tudo oque você faz. Quando 0, perde-se HP. 
+
+ * Fúria
+  A medida que você vai se enfureçendo numa luta, a fúria aumenta e seus poderes vão as loucuras.
+
+ * Experiência
+  É a sua experiência de luta ganho em lutas, quanto mais experiência, mais forte você fica.
+
+ * Força
+  Determina a potência do seu ataque usado em golpes fisicos e de KI.
+
+ * Destreza
+  É sua agilidade, sua capacidade de desviar golpes fisicos e de KI.
+
+ * Constituição
+  São os seus pontos de vida, a forca vital de seu personagem.
+
+ * Inteligência
+  Determina a chamada "KI" que indica a capacidade de utilizar os golpes que usam KI.
+
+ * Resistência
+  É a sua resistência a tudo, caso leve um golpe não desviado, essa é a Defesa.
+
+
+- Raças:
+  Cadastro: Humano, Saiya-jin, Saiyaman, Changeling, Andróide, Majin, Tsufuru-jin e Namekusei-jin.
+  Especial: Kaio
+
+* Humano ---------------------------------------------------------------
+
+ Descrição: A maioria dos humanos são fracos por natureza, mas alguns humanos podem fazer com que sua força oculta desperte, mas isso é uma exceção que só alguns humanos conseguiram.
+ Planeta: Terra
+ Vantagens: 
+  Podem sentir KI.
+  Podem esconder seu KI.
+  Inteligência.
+  Dificilmente são enganados.
+
+ Desvantagens: 
+  Não podem sobreviver sem Oxigênio.
+  São seres fracos
+  São mais lerdos que a maioria das raças.
+  Se ficarem muito nervosos, ou sobre pressão, perdem a capacidade de pensar rápido.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*2
+  DANOMIN: FOR/3
+  DANOMAX: FOR/2.5
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0
+  DEZ: 0
+  CONS: 0
+  INT: 0 (BONUS INICIAL INT*3)
+  RES: 0
+
+
+* Saiya-jin -------------------------------------------------------------
+
+ Descrição: Essa aqui é uma raça de guerreiros, então por serem guerreiros, normalmente são muito fortes. Eles tem uma grande semelhança com os humanos, tanto é que os amigos de Goku só foram descobrir que ele era de outro planeta (um Saiya-Jin), quando Raditz apareceu na terra e contou a história.
+ Planeta: Plant
+ Vantagens:
+  Podem sentir Ki.
+  Podem esconder seu Ki.
+  Podem se transformar em Oozaru em noites de lua cheia.
+  São rápidos (mais rápidos que os humanos).
+  Já nascem muito fortes.
+  Membro Extra (rabo).
+
+ Desvantagens:
+  Não podem sobreviver sem Oxigênio.
+  Perdem o controle total de sí quando viram Oozaru.
+  São seres extremamente invejosos.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*1.2
+  DANOMIN: FOR/2.5
+  DANOMAX: FOR/1
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 (BONUS INICIAL FOR*1.5)
+  DEZ: 0
+  CONS: 0
+  INT: 0 
+  RES: 0 (BONUS INICIAL RES*1.5)
+
+
+* Saiyaman ---------------------------------------------------------------
+
+ Descrição: Decendentes de Humanos e Saiya-jins, a maioria dos Saiyamans são bastantes fortes, como Gohan, Goten, Trunks, etc.
+ Planeta: Terra
+ Vantagens: 
+  Podem sentir Ki.
+  Podem esconder seu Ki.
+  Já nascem muito fortes.
+
+ Desvantagens:
+  Não podem sobreviver sem Oxigênio.
+  Perdem o controle total de sí quando viram Oozaru.
+  São seres extremamente invejosos.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*1.5
+  DANOMIN: FOR/2.2
+  DANOMAX: FOR/1.2
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 (BONUS INICIAL FOR*1.5)
+  DEZ: 0
+  CONS: 0
+  INT: 0 (BONUS INICIAL INT*1.5)
+  RES: 0
+
+
+* Changeling ------------------------------------------------------------
+
+ Descrição: O primeiro Changeling a aparecer na série DBZ foi Freeza, que queria apoderar-se das Dragon Balls de Namekusei, para obter a vida eterna. Possuem muita agilidade. São bastantes rápidos e podem desviar facilmente dos ataques.
+ Planeta: Freeza
+ Vantagens:
+  Sobreviver na Ausência do Oxigênio.
+  Velocidade Extra (são mais rápido que os humanos).
+  Membro Extra (cauda).
+  Agilidade.
+  
+ Desvantagens:
+  Não escondem seu ki.
+  Não podem sentir ki.
+  Não calculam o poder dos ataques inimigos com facilidade.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*3
+  DANOMIN: FOR/3
+  DANOMAX: FOR/2.5
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 
+  DEZ: 0 (BONUS INICIAL DEZ*3)
+  CONS: 0
+  INT: 0 
+  RES: 0 
+
+
+* Andróide --------------------------------------------------------------
+
+ Descrição: Os Andróides são criados pelo Dr. Gero, a maioria deles são construídos através de bases humanas ou de outro planeta, por isso não é possível definir o poder de luta de cada Andróide, porque que cada um possuí suas características.
+ Planeta: Terra
+ Vantagens:
+  Podem sobreviver sem oxigênio ou comida.
+  Contém uma bomba explosiva dentro de sí.
+  Podem se reconstruir.
+  Não sentem dor ou cansaço algum.
+  Podem esconder seu próprio KI.
+
+ Desvantagens:
+  Não são capazes de pensar antes de qualquer ato.
+  São facilmente enganáveis.
+  Depois da regeneração sentem-se esgotados.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*3
+  DANOMIN: FOR/4
+  DANOMAX: FOR/2
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0
+  DEZ: 0
+  CONS: 0 (BONUS INICIAL CONS*3)
+  INT: 0 
+  RES: 0 
+
+
+* Majin -----------------------------------------------------------------
+
+ Descrição: Existem dois tipos de Majin, os que dominam, e os que são dominados, o verdadeiro Majin é o que domina, é esse que da origem à raça, então, o Majin dominado é aquele que deu sua alma para um Majin se tornar assim um Majin. São muito fortes e possuem um alto indice de defesa.
+ Planeta: Terra
+ Vantagens:
+   Membro Extra (cauda na cabeça).
+   Velocidade Extra (são mais rápidos que os humanos).
+   Sobreviver na Ausência do Oxigênio.
+   Podem se regenerar (porém, ficam cansados e perdem HP).
+   Só morrem se todas as suas células forem destruídas.
+   Espadas não fazem efeitos neles.
+
+ Desvantagens:
+   Não escondem seu Ki.
+   Não calculam poder dos ataques inimigos com facilidade.
+   Não tem fama boa entre os Senhores Kaios.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*2
+  DANOMIN: FOR/2.2
+  DANOMAX: FOR/1.2
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 (BONUS INICIAL FOR*1.5)
+  DEZ: 0
+  CONS: 0 (BONUS INICIAL CONS*1.5)
+  INT: 0 
+  RES: 0 
+
+
+* Kaio ------------------------------------------------------------------
+
+ Descrição: São os Srs. Kaios, que no total são cinco: Kaio do Norte, Kaio do Sul, Kaio do Leste, Kaio do Oeste, e o Grande Sr. Kaio Central. Cada um cuida de uma constelação que possuem seus determinados planetas. Uma raça bastante poderosa em termos de poder e respeito.
+ Planeta: Kaio
+ Vantagens:
+  Podem sentir Ki.
+  Podem se regenerar.
+  Podem esconder seu próprio KI.
+  Já nascem muito fortes.
+  Só morrem se todas as suas células forem destruídas.
+
+ Desvantagens:
+  Não podem sobreviver sem Oxigênio.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*2
+  DANOMIN: FOR/1.5
+  DANOMAX: FOR/1
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 (BONUS INICIAL FOR*2)
+  DEZ: 0 (BONUS INICIAL DEZ*2)
+  CONS: 0 (BONUS INICIAL CONS*2)
+  INT: 0 (BONUS INICIAL INT*3)
+  RES: 0 (BONUS INICIAL RES*3)
+
+
+* Tsufuru-jin -----------------------------------------------------------
+
+ Descrição: Os Tsufuru-jins são fracos porém bastante Inteligentes, podendo se apoderar do corpo dos guerreiros e depositar suas células em seus cerebros, podendo apoderar-se de seus corpos e controlando-os.
+ Planeta: Plant
+ Vantagens:
+  Podem se regenerar.
+  Podem esconder seu próprio KI.
+  Inteligência.
+
+ Desvantagens:
+  Não podem sobreviver sem Oxigênio.
+  Não são muito fortes.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*1.5
+  DANOMIN: FOR/3
+  DANOMAX: FOR/1,5
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0
+  DEZ: 0 (BONUS INICIAL DEZ*2)
+  CONS: 0
+  INT: 0 (BONUS INICIAL RES*4)
+  RES: 0
+
+
+* Namekusei-jin ---------------------------------------------------------
+
+ Descrição: Existem dois tipos de Namekusei-Jins, os normais, que possuem praticamente a mesma força de um humano, e os da raça guerreira, que possuem a força semelhante aos de um Saiya-Jin, na maioria da vezes até mais forte.
+ Planeta: Namek
+ Vantagens: 
+  Podem sentir Ki.
+  Podem esconder seu Ki.
+  Podem regenerar membros perdidos (menos a cabeça).
+  São muito inteligentes.
+  
+ Desvantagens:
+  Não podem viver sem oxigênio.
+  Perdem a calma facilmente.
+
+ Atributos Iniciais:
+  Level: 1
+  KI: 20
+  XP: 0
+  Poder de Batalha(BP): FOR*DEZ*CONS*INT*RES/LVL
+  HP: CONS*1.5
+  DANOMIN: FOR/2.5
+  DANOMAX: FOR/1.5
+  -
+  PONTOS PARA DISTRIBUIR: 28
+  -
+  FOR: 0 (BONUS INICIAL FOR*1.5)
+  DEZ: 0
+  CONS: 0
+  INT: 0 (BONUS INICIAL INT*1.5)
+  RES: 0
+
+
+- Sistema de Cores:
+
+ As cores padrões de inicio de bot são: Letra(Preto), Destaque(Laranja) e Símbolos(Cinza Claro).
+ Ao se cadastrar poderá optimizar as cores preferidas na opção ".Perfil".
+ Sistema usará replaces de caracteres por cor.
+ -
+ Significados:
+   &L1& => Letra, substitui &L1 pela cor da frase.
+   &D2& => Destaque, substitui &D2 pela cor do destaque.
+   &S3& => Símbolos, substitui &S3 pela cor dos símbolos.
+ -
+ Código -> $replace(texto,&L1,Cor_Letra,&D2,Cor_Destaque,&S3,Cor_Símbolos)
+
+
+- Sistema de Treino:
+
+ Existem quatro tipos de Treino: 
+  Treino Normal => Luta 1x1, você contra seu adversário, sem mortes. (+EXP)
+  Treino Gravitacional => Válido só para aqueles que tem ou emprestam a nave gravitacional. (+EXP)
+  Treino em Sala do Templo => Luta x1,x2,x3..., durante 30 minutos. (+EXP +ATRIB)
+  Treino com Mestre => Treino muito especial, usado para adquirir técnicas entre outros. (+EXP +ATRIB +TECN)
+
+
+- Sistema de Refinamento:
+
+ O sistema de refinamento existirá para aumentar a potência do equipamento.
+ Os equipamentos serão refinados de +1 até +13 que é o refinamento maximo.
+ Tabela:
+  De +1 à +6: Vestígios de Unamoreon + Pó Mágico + $1.000.000 é transformado em Pó de Unamoreon
+  De +7 à +9: Vestígios de Lactorium + Pó Mágico + $26.000.000 é transformado em Pó de Lactorium
+  De +10 à +13: Ossada de Dragão Branco + Pó Mágico + $59.000.000 é transformada em Poeira do Dragão
+
+ Após o refinamento os atributos do equipamento são multiplicados de acordo com item de refinar usado.
+ A cor do equipamento vai clariando a cada refinamento até chegar a cor de ouro.
+ Poderá ser vendida por um preço decidido pelo dono.
+
+
+- Sistema de Loja:
+
+ Existirá dois tipos de Lojas, uma normal, feitas em lugares fixos,
+ e outra criada pelo personagem em qualquer sala, basta dar um nome,
+ depois ela pode ser cancelada e assim feita novamente em outro lugar.
+ Cada personagem terá 12 Slots para vender até 12 itens de cada vez.
+
+
+- Sistema de Luta:
+
+ As lutas ocorrerão em lugares marcados ou não, Torneios, Budoukais e Campeonatos.
+ Não existirá "mais forte começa", começa sempre aquele que atacar primeiro.
+ Não existirá "turnos", e sim um novo sistema:
+  As lutas poderão ser igual pra igual ou não, exemplo 1x1, 2x1, 6x1....
+  Cada lutador terá um tipo de "Folego" para atacar.
+  Só raças que possuem a vantagem de sentir KI podem ver se o outro lutador é forte.
+  Os golpes serão em capsulas, podendo ser equipados em 10 slots diferentes.
+  Os tipos de status de corpo são: Perfect, Normal, Ferido, Cansado, Desmaiado e Morto.
+  Cada golpe terá um tempo de carregar para soltar.
+  E cada golpe carregado e solto, todo lutador terá de dois a três segundos para executar uma ação (Esquivar, Desviar, Rebater, Segurar, Contra-ataque e Teletransporte), caso contrário, o lutador irá sofrer muito dano.
+  Independente do final das lutas, todos ganharam experiência.
+  As lutas em Clãs todos poderão atacar ao mesmo tempo.
+
+
+- Sistema de RPG:
+
+- Sistema de Clãs:
+
+ Clãs são um grupo de pessoas que se unem formando um "grupo" para lutar e disputar torneios no canal.
+ Regras para Clãs:
+  Para fundar um clã é necessário que o usuário não esteja em mais nenhum clã.  
+  O clã deve ter um Nome Curto (será o nome que aparece no Ranking), um Nome Longo (o nome completo do clã), uma cor de fundo e uma cor para a letra no logo do Clã.
+  Cada clã pode ter 1 Fundador(Dono), 2 Mestres, 3 Representantes e quantos integrantes quizer.
+  Um lutador só entra em um Clã se for convidado pelo Fundador do Clã.
+  Qualquer lutador pode sair de seu Clã a qualquer momento por vontade própria.
+  Qualquer lutador pode ser expulso de um Clã a qualquer momento caso o Fundador do Clã queira isso.
+  Caso o Fundador de um clã queira sair de seu clã, deverá passar o comando do clã a outra pessoa, ou desregistrar o clã.
+  Os lutadores de cada Clã defendem o nome, a honra e as cores de seu Clã em torneios especiais para Clãs.
+  Cada Clã tem seu regimento: Democracia, Ditadura, Anarquia e Imperio.
+
+- Sistema de Capsulas (Golpes):
+
+ Ao invés de ganhar golpes por level, os golpes serão adquiridos por lojas de capsulas de golpes.
+ Os golpes fracos custaram em torno de $1.000, os mais médios entre $50.000, já os fortes em torno
+ de $200.000 pra cima. Os golpes mais raros serão os golpes após transformação ou fusão, custará
+ no minimo, $100.000.000 (cem milhões).
+ As transformações também serão compradas por capsulas que custará mais ou menos $100.000.000
+ Cada personagem terá 10 slots para ocupar de golpes da maneira que quizer.
+ Cada personagem começa com os golpes iniciais que são os neutros (não são capsulas):
+   Soco
+   Chute
+   Invisible Jump (IJ)
+   Fusenko
+   Kiaiho
+   Shock Barrier
+   Tokui
+   Bukujutsu
+   White hand
+   Zanzoken
+   Energy Beam
+ A vantagem desse sistema é que você pode personalizar seus golpes para não ficar uma coisa padrão.
+
+
+- Sistema de Banco:

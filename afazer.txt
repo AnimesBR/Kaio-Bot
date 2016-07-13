@@ -1,0 +1,24 @@
+feito:
+
+- cadastro
+- login
+- dados
+- inventario, equip, unequip, falta use
+- mapa
+- target
+
+falta fazer:
+
+- lutas
+- mapas
+- npcs
+- bancos
+- catalogar equips
+- catalogar golpes
+- comando .skill
+- clãs
+
+
+- comandos admins
+- história, objetivo.
+- estreiar 

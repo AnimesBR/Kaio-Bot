@@ -1,0 +1,118 @@
+- Guia de Itens:
+
+ * Itens de cura:
+
+ Nome:
+ Tipo:
+ Preço:
+ Descrição:
+
+ * Naves:
+
+ Nome: Saiya-jin Ship
+ Tipo: Nave
+ Preço: $30.000
+ Descrição: Nave usada por Vegeta e Nappa, é pequena, redonda, acompanha sistema de manutenção de vida e pequenos machucados.
+ Capacidade: 1 Tripulante.
+ Level: 24
+
+ Nome: Freeza Ship
+ Tipo: Nave
+ Preço: $50.000
+ Descrição: Nave para um tripulante feita para percorrer o universo em pouco tempo. Acompanha sistema de cura de pequenos machucados e cápsula com Alimentos.
+ Capacidade: 1 Tripulante.
+ Level: 56
+
+ Nome: Capsule Corp Ship
+ Tipo: Nave
+ Preço: $100.000
+ Descrição: Nave construída por Bulma, à partir da Saiyajin Ship, é como uma Saiyajin Ship melhorada, mais rápida, e maior. Acompanha pequena sala de treinamentos e sistema de cura de pequenos machucados, além de cápsula com mantimentos.
+ Capacidade: 2 Tripulantes.
+ Level: 128
+
+ Nome: Kaio Motor
+ Tipo: Nave
+ Preço: $160.000
+ Descrição: Aparentemente uma moto comum, mas quando é ligada, uma aura envolve a moto, fazendo com que ela possa ir para o espaço, além disso, sua velocidade é muito alta. Acompanha cápsula com mantimentos, mas não tem sistema de cura.
+ Capacidade: 2 Tripulante.
+ Level: 256
+
+ Nome: Capsule Corp Ship 2
+ Tipo: Nave
+ Preço: $360.000
+ Descrição: Nave com que Goku, Trunks e Pan viajaram pelo universo. Acompanha sistema de cura, e sala de treino completa. Sua velocidade é a melhor de todas.
+ Capacidade: 3 Tripulantes.
+ Level: 512
+
+ Nome: Freeza Star Ship.
+ Tipo: Nave
+ Preço: $10.850.000
+ Descrição: Nave para vários tripulantes, compsota por inúmeras salas, e quartos. É a nave que Freeza utilizava para atravessar o Universo. Tem forma de uma estrela, e acompanha várias salas de treinamento completas, além de sistema de cura completo.
+ Capacidade: 80 Tripulantes.
+ Level: 1024
+
+ Nome: Majin Ship
+ Tipo: Nave
+ Preço: $350.000.000
+ Descrição: Imensa nave de Babidi, que ficava escondida embaixo da terra na saga de Boo. Tem 6 andares, além de inúmeras salas e inúmeros quartos. Acompanha inúmeras salas de treino e sistema de cura completo avançado, além de muitos mantimentos, e ajutantes. O único ruim é que sua velocidade não é das melhores.
+ Capacidade: 320 Tripulantes.
+ Level: 2048
+
+ Nome: Capsule World Ship
+ Tipo: Nave
+ Preço: $1.640.450.000
+ Descrição: Nave usada por Babi para transportar os habitantes da Terra para o planeta Tsufuru. Super completa, a única desvantagem é sua velocidade.
+ Capacidade: Inf. Tripulantes.
+ Level: 4096
+
+
+ * Armaduras:
+
+ Nome: Armadura T1
+ Tipo: Defesa
+ Preço: $1.000
+ Descrição: Cobre o peitoral, é boa contra ataques físicos, mas não é muito boa contra ataques de ki. Seu ponto forte é sua resistência, mais de 10% contra ataques físicos e seu ponto fraco é o peso. Diminui a agilidade de quem a utiliza.
+ Destreza: -2%
+ Resistência: +4%
+ Level: 5
+
+ Nome: Armadura T2
+ Tipo: Defesa
+ Preço: $10.000
+ Descrição: Cobre o peitoral, é boa contra ataques físicos, e ataques de ki pequenos, é um pouco pesada. Seu ponto forte é a resistência a ataques de ki, que diminui em quase 10% os danos de um ataque e seu ponto fraco é o peso, que apesar de ser menor que o peso da Armadura 1, continua alto, diminuindo a velocidade de quem a utiliza.
+ Destreza: -4%
+ Resistência: +10%
+ Level: 20
+
+ Nome: Armadura T3
+ Tipo: Defesa
+ Preço: $123.000
+ Descrição: Cobre o peitoral e os braços, é boa contra ataques físicos e ataques de ki de porte médio, é mais leve que a Armadura 2 e a 1. Seu ponto forte é o peso, que não incomoda o utilizador e nem diminui sua velocidade, e seu ponto fraco é que ela não cobre as pernas.
+ Destreza: -6%
+ Resistência: +16%
+ Level: 40
+
+ Nome: Armadura Saiya-jin
+ Tipo: Defesa
+ Preço: $560.000
+ Descrição: Cobre o peitoral, ombro e costas. Tem um design muito bonito, e é resistente contra ataques de Ki e ataques físicos de todo tipo. É muito leve. Seu ponto forte, é a leveza, quem a utiliza, quase nem percebe que está com armadura, e seu ponto fraco, é a mobilidade, quem a utiliza não consegue mover o corpo totalmente.
+ Destreza: -10%
+ Resistência: +21%
+ Level: 60
+
+ Nome: Armadura Capsule
+ Tipo: Defesa
+ Preço: $1.230.000
+ Descrição: Usada pelos guerreiros Z na sala do templo. Ela é azul, cobre o peitoral, ombro e costas. É muito leve, e ajuda bastante em ataques de ki e na mobilidade do corpo. Seu ponto forte é a resistência a ataques de ki de grande porte.
+ Destreza: -16%
+ Resistência: +39%
+ Level: 80
+ 
+ Nome: Armadura Espacial
+ Tipo: Defesa
+ Preço: $4.920.000
+ Descrição: Cobre o corpo inteiro. Vem com um pequeno capacete, que é muito leve, e tem um Rastreador B embutido. Se o dono da armadura quiser, pode tirar o rastreador e colocar outro melhor, caso tenha. Essa armadura suporta ataques de Ki com grande eficácia, e ataques físicos são quase nulos contra ela. Vem também com uma arma no braço direito, que dispara pequenos ataques de ki e um capacete espacial, possibilitando a ida ao espaço sem problemas. Seu ponto forte, é a eficácia contra ataques físicos, que não fazem quase nenhum efeito nessa armadura. Acompanha Rastreador B e Capacete Espacial.
+ Destreza: -25%
+ Resistência: +60%
+ Level: 100
+ 
